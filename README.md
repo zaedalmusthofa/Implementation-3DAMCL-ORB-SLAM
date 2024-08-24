@@ -19,8 +19,8 @@ If you use ORB-SLAM3 in an academic work,please cite:
     @article{ORB-SLAM3_TRO,
       title={{ORB-SLAM3}: An Accurate Open-Source Library for Visual, Visual-Inertial
               and Multi-Map {SLAM}},
-      author={Campos, Carlos AND Elvira, Richard AND G`omez, Juan J. AND Montiel,
-              Jos'e M. M. AND Tard'os, Juan D.},
+      author={Campos, Carlos AND Elvira, Richard AND G\`omez, Juan J. AND Montiel,
+              Jos\'e M. M. AND Tard\'os, Juan D.},
       journal={IEEE Transactions on Robotics},
       volume={37},
       number={6},
