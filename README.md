@@ -6,7 +6,7 @@ Modify by Zaed Al Musthofa-TelU-Student
 
 ==========================================================================
 
-# **1.License**
+# **1. License**
 ORB-SLAM3 is released under [GPLv3 licence](url). For a list all code/library dependencies (associated licences), 
 please see [Dependencies.md.](https://github.com/UZ-SLAMLab/ORB_SLAM3/blob/master/Dependencies.md)
 
@@ -28,7 +28,7 @@ If you use ORB-SLAM3 in an academic work,please cite:
       year={2021}
 }
 ```
-# **2.Prerequisites**
+# **2. Prerequisites**
 we have tasted the library in ubuntu **16.04** and **18.04**, but it should be easy to compile in others platforms. A powerful
 (e.g.i7) will ensure real-time performance and provide more stable and accurate result.
 
