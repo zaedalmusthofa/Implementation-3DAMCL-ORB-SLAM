@@ -4,7 +4,7 @@
 
 Modify by Zaed Al Musthofa-TelU-Student
 
-==================================================
+==========================================================================
 
 # **1.License**
 ORB-SLAM3 is released under [GPLv3 licence](url). For a list all code/library dependencies (associated licences), 
