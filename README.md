@@ -1,6 +1,5 @@
-# Implementation-3DAMCL-ORB-SLAM
 
-**Tutorial-Implementation-3DAMCL-ORB-SLAM-V1.0, August 24th, 2024**
+# **Tutorial-Implementation-3DAMCL-ORB-SLAM-V1.0, August 24th, 2024**
 
 Modify by Zaed Al Musthofa-TelU-Student
 
@@ -186,5 +185,41 @@ A flag in `include\Config.h` activates time measurements. It is necessary to unc
 You can find a tutorial for visual-inertial calibration and a detailed description of the contents of valid configuration files at `Calibration_Tutorial.pdf`
 
 **Reference:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](https://webdiis.unizar.es/~josemari/), [Juan D. Tardos](https://webdiis.unizar.es/~jdtardos/).
+
+# 10. Directory Dataset 
+To access the dataset directory in the file manager, what you need to pay attention to is where the downloaded dataset is stored. If you follow the tutorial on how to download a dataset and running ORB-SLAM3, the dataset will be saved in ~/datasets/EuRoC/MH_01_easy. This is an example of the EuRoC dataset.
+
+```
+~/datasets/EuRoC/MH_01_easy
+```
+
+![Screenshot from 2024-08-31 17-00-20](https://github.com/user-attachments/assets/f567601b-e51f-4f70-9f49-073d89f4d6a8)  ![Screenshot from 2024-08-31 19-06-42](https://github.com/user-attachments/assets/fd1c17ce-947d-4474-8847-de34e7803577)
+
+
+Meanwhile, the TUM-VI dataset is stored at ~/datasets/TUM-VI/dataset-corridor1_512_16.  The dataset can be saved in any folder, the most important thing is that you can understand and understand how to write the directory in the terminal so that the ORB-SLAM3 program can run without trouble.
+
+```
+~/datasets/TUM-VI/dataset-corridor1_512_16
+```
+
+![Screenshot from 2024-08-31 18-08-23](https://github.com/user-attachments/assets/974aa654-394f-4dc1-9e85-6db0f2c18861) ![Screenshot from 2024-08-31 20-16-19](https://github.com/user-attachments/assets/b5844c3b-dc74-401b-8cb8-746fdc9ccd4e)
+
+
+# 11. Directory Example ORB-SLAM3
+The dataset that will be used by ORB-SLAM3 must be adjusted to the example in the file manager. This example is a program that will be run by ORB-SLAM3. The program here is a txt file containing the names of the photos in the datasets. If you follow the tutorial for running ORB-SLAM3 using the EuRoC dataset it will look like this:
+```
+/Examples/Stereo/EuRoC_TimeStamps/MH01.txt
+```
+![Screenshot from 2024-08-31 20-50-11](https://github.com/user-attachments/assets/8c1e737b-0fe4-4268-aa57-949315893b8e)
+![Screenshot from 2024-08-31 21-03-00](https://github.com/user-attachments/assets/798b2ba8-2f3d-4028-a906-b9cafad332ba)
+
+while for the TUM-VI dataset it will be like this:
+```
+./Examples/Stereo-Inertial/TUM_IMU/dataset-corridor4_512.txt ./Examples/Stereo/EuRoC_TimeStamps/V101.txt
+```
+![Screenshot from 2024-08-31 20-54-59](https://github.com/user-attachments/assets/d2027071-acd7-445c-a5e0-240a903d9e95)
+![Screenshot from 2024-08-31 21-07-29](https://github.com/user-attachments/assets/00827e94-6227-42bd-8ce0-1a19da75b589)
+
+
 
 This repository contains a tutorial on implementing 3DAMCL-ORB-SLAM by Mr.Herusyahputra
