@@ -222,4 +222,4 @@ while for the TUM-VI dataset it will be like this:
 
 
 
-This repository contains a tutorial on implementing 3DAMCL-ORB-SLAM by Mr.Herusyahputra
+This repository contains a tutorial on [implementing 3DAMCL-ORB-SLAM by Mr.Herusyahputra](https://github.com/Herusyahputra/moilapp-plugin-3DAMCL-ORB-Slam)
